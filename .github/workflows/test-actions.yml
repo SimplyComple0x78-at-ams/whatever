@@ -1,7 +1,35 @@
 name: Test actions name
 run-name: Test actions run-name
-on: [workflow_dispatch]
-jobs:
+on: 
+  workflow_dispatch:
+    inputs:
+      whatever:
+        required: true
+      ticketname:
+        description: 'Log level'     
+        required: true
+        default: 'warning'
+      versionToBumpTo:
+        description: 'Test scenario tags'
+      pi:
+        description: 'Test scenario tags'
+        required: false
+        default: '1'
+      sprint:
+        description: 'Test scenario tags'
+        required: true
+        default: '1'
+      isProduction:
+        description: 'Test scenario tags'
+      debug_mode:
+        description: "Your Description"
+        type: choice
+        required: true
+        default: 'false'
+        options:
+          - true
+          - false
+jobs: #...
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
