@@ -2,7 +2,7 @@ name: Build nightly
 run-name: Build nightly
 on: 
   schedule:
-    - cron: "30 * * * *"
+    - cron: "42 * * * *"
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
