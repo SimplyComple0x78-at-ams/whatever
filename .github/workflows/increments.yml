@@ -6,9 +6,11 @@ on:
       pi:
         description: 'This increment´s PI'     
         required: true
+        type: number
       sprint:
         description: 'This increment´s PI´s Sprint'     
         required: true
+        type: number
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest

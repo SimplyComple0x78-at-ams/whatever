@@ -1,5 +1,5 @@
-name: Build ticket
-run-name: Build ticket run-name
+name: Build nightly
+run-name: Build nightly run-name
 on: 
   schedule:
     - cron: "30 * * * *"
