@@ -1,5 +1,5 @@
-name: Build imcrement
-run-name: Build increment run-name
+name: Build increment
+run-name: Build increment
 on: 
   workflow_dispatch:
     inputs:

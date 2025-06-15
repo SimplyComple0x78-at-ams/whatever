@@ -1,5 +1,5 @@
 name: Build nightly
-run-name: Build nightly run-name
+run-name: Build nightly
 on: 
   schedule:
     - cron: "30 * * * *"

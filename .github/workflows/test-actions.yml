@@ -1,5 +1,5 @@
 name: Test actions name
-run-name: Test actions run-name
+run-name: Test actions
 on: 
   workflow_dispatch:
     inputs:
