@@ -1,4 +1,4 @@
-name: 03 - Build increment
+name: 03 - Build increment 🪜
 run-name: Build increment
 on: 
   workflow_dispatch:
