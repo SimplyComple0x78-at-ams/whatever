@@ -1,4 +1,4 @@
-name: 01 - Build ticket
+name: 01 - Build ticket 🧩
 run-name: Build ticket
 on: 
   workflow_dispatch:
