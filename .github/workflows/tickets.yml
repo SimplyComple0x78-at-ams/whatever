@@ -1,5 +1,5 @@
 name: 01 - Build ticket 🧩
-run-name: Build ticket
+run-name: Building one ticket...
 on: 
   workflow_dispatch:
     inputs:

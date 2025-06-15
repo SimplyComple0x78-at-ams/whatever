@@ -1,5 +1,5 @@
 name: 02 - Build nightly 🌙
-run-name: Build nightly
+run-name: Building today's nightly
 on: 
   schedule:
     - cron: "42 * * * *"

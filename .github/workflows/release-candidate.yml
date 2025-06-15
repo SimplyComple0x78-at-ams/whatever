@@ -1,5 +1,5 @@
 name: 04 - Build release candidate 📦
-run-name: Build release candidate
+run-name: Building a release targeting stage and production
 on: 
   workflow_dispatch:
     inputs:

@@ -1,5 +1,5 @@
 name: 03 - Build increment 🪜
-run-name: Build increment
+run-name: Building an increment targeting stage and production
 on: 
   workflow_dispatch:
     inputs:
