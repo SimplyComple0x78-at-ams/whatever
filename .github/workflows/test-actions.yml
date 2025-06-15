@@ -29,6 +29,9 @@ on:
         options:
           - true
           - false
+      use-emoji:
+        type: boolean
+        description: Include 🎉🤣 emojis
 jobs: #...
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
